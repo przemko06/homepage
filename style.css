@@ -1,0 +1,32 @@
+body {
+    background: lightgray;
+}
+
+section {
+    background: #ffffff;
+}
+
+h1 {
+    color: #92140C;
+}
+
+p {
+    color: rgb(0, 11, 114);
+}
+
+h2 {
+    color: #000133;
+}
+
+.special-header {
+    color: #21A179;
+}
+
+
+a {
+    color: #ffae00 !important;
+}
+
+.header-link {
+    color: #0a501c;
+}
