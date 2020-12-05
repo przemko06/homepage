@@ -19,9 +19,44 @@ h2 {
 }
 
 a {
-  color: #ffae00 !important;
+  color: #ffae00;
 }
 
 .header-link {
   color: #0a501c;
+}
+
+.navigation {
+  background: #0a6320;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage {
+  background: yellow;
+  color: #000;
+}
+
+.week-summary {
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.week-summary__title {
+  color: #21a179;
+}
+
+.week-summary__description {
+  color: #92140c;
+}
+
+.week-summary--special {
+  border-color: yellow;
 }
