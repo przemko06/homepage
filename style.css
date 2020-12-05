@@ -1,13 +1,24 @@
-body {
-  background: lightgray;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-section {
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  background: #c4bbaf;
+}
+
+main {
+  padding: 20px 50px;
   background: #ffffff;
 }
 
-h1 {
-  color: #92140c;
+section {
+  margin-bottom: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -19,8 +30,22 @@ img {
   height: 255px;
 }
 
+p {
+  line-height: 130%;
+}
+
+#top {
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  color: #5a2a27;
+  font-size: 32px;
+}
+
 .special-header {
-  color: #21a179;
+  margin-bottom: 20px;
+  color: #4a4e69;
 }
 
 a {
@@ -32,9 +57,9 @@ a {
 }
 
 .navigation {
-  background: #0a6320;
+  background: #40531b;
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
 }
 
 .navigation__link {
@@ -49,19 +74,49 @@ a {
 }
 
 .week-summary {
-  padding: 16px;
-  border: 1px solid #ccc;
+  padding: 16px 30px 30px 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 16px;
 }
 
 .week-summary__title {
+  margin-bottom: 10px;
   color: #21a179;
 }
 
 .week-summary__description {
-  color: #92140c;
+  line-height: 130%;
+  color: black;
 }
 
 .week-summary--special {
-  border-color: yellow;
+  box-shadow: 0 0 6px rgba(240, 8, 8, 0.3);
+}
+
+.main-section {
+  padding: 20px;
+  /* border: 1px solid #000; */
+}
+
+.main-section__title {
+  margin-bottom: 20px;
+}
+
+.main-section__image {
+  margin-bottom: 20px;
+}
+
+#other-section {
+  padding: 20px;
+}
+
+footer {
+  padding: 8px 0;
+  background: black;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-paragraph {
+  text-align: center;
 }
