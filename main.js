@@ -10,3 +10,7 @@ const heading = document.querySelector(".main-heading--js");
 heading.innerHTML = `Witaj drogi odwiedzający, nazywam się ${firstName} i mam ${age} lat`;
 
 console.log(heading);
+
+const description = document.querySelector(".week-summary__description--js");
+
+description.innerHTML = `To jest nowy paragraf zmodyfikowany za pomocą JS. Modyfikujący - ${firstName}`;
