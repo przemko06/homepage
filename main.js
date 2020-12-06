@@ -5,7 +5,7 @@ console.log(firstName);
 console.log(age);
 console.log(`Siema, nazywam się ${firstName} i mam ${age} lat`);
 
-const heading = document.querySelector(".main-heading--js");
+const heading = document.querySelector(".main__title--js");
 
 heading.innerHTML = `Witaj drogi odwiedzający, nazywam się ${firstName} i mam ${age} lat`;
 

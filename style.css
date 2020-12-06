@@ -38,12 +38,12 @@ p {
   margin-bottom: 20px;
 }
 
-.main-heading__title {
+.main__title {
   color: #5a2a27;
   font-size: 32px;
 }
 
-.special-header {
+.notes__heading {
   margin-bottom: 20px;
   color: #4a4e69;
 }
@@ -93,16 +93,16 @@ a {
   box-shadow: 0 0 6px rgba(240, 8, 8, 0.3);
 }
 
-.main-section {
+.about {
   padding: 20px;
   /* border: 1px solid #000; */
 }
 
-.main-section__title {
+.about__title {
   margin-bottom: 20px;
 }
 
-.main-section__image {
+.about__image {
   margin-bottom: 20px;
 }
 
@@ -117,6 +117,6 @@ footer {
   font-size: 12px;
 }
 
-.footer-paragraph {
+.footer__paragraph {
   text-align: center;
 }
